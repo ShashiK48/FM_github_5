@@ -1,9 +1,9 @@
 # This script defines a function to count the number of items less than 10 in a list of
 # numbers.
-def count_low(item_list):
+def count_low(item_list: int):
     count = 0
     for item in item_list:
-        if item_list < 10:
+        while item < 10:
             count += 1
     return count
 
